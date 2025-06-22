@@ -38,4 +38,4 @@ def insert_data():
 if __name__ == "__main__":
     init_db()
     insert_data()
-    print("✔ Database created and populated successfully.")
+    print("Database created and populated successfully.")
