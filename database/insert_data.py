@@ -3,9 +3,9 @@ import sqlite3
 import json
 import os
 
-DB_PATH = "momo.db"
+DB_PATH = "database/momo.db"
 JSON_PATH = "backend/cleaned_data.json"
-SCHEMA_PATH = "schema.sql"
+SCHEMA_PATH = "database/schema.sql"
 
 def init_db():
     with open(SCHEMA_PATH, "r", encoding="utf-8") as f:
