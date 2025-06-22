@@ -4,7 +4,7 @@ import json
 import os
 
 DB_PATH = "momo.db"
-JSON_PATH = "../backend/cleaned_data.json"
+JSON_PATH = "backend/cleaned_data.json"
 SCHEMA_PATH = "schema.sql"
 
 def init_db():
